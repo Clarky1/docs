@@ -1,4 +1,32 @@
----
+---A tool for managing packages. Commands:
+
+  autoclean            - Remove all outdated packages from .deb package
+                         cache.
+
+  clean                - Remove all packages from .deb package cache.
+                         Using 9.9M now.
+
+  files <packages>     - Show all files installed by packages.
+
+  install <packages>   - Install specified packages.
+
+  list-all             - List all packages available in repositories.
+
+  list-installed       - List installed packages.
+
+  reinstall <packages> - Reinstall specified installed packages at the
+                         latest version.
+
+  search <query>       - Search package by query, for example by name or
+                         description part.
+
+  show <packages>      - Show basic metadata, such as dependencies.
+
+  uninstall <packages> - Uninstall specified packages. Configuration files
+                         will be left intact.
+
+  upgrade              - Upgrade all installed packages to the latest
+                         version.
 title: Quickstart for Codespaces
 intro: 'Try out {% data variables.product.prodname_codespaces %} in 5 minutes.'
 allowTitleToDifferFromFilename: true
